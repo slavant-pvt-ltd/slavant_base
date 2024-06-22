@@ -1,0 +1,128 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 640px; /* Adjust height as needed */
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.video-container video:hover{
+  opacity: 0.3;
+}
+
+.video-container video {
+  transition: opacity 0.5s ease; /* Transition effect with duration of 0.3 seconds */
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.video-caption {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  
+}
+
+.more-info-button {
+  position: absolute;
+  bottom: 200px; /* Adjust as needed */
+  left: 20%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Transition effect with duration of 0.3 seconds */
+  padding: 10px 20px; /* Adjust padding as needed */
+  color: #fff; /* Button text color */
+  border: none;
+  text-decoration: none; /* Remove default link underline */
+  border-radius: 20px;
+}
+
+.hover-heading {
+  display: none; /* Initially hide the heading */
+}
+
+.video-container:hover .hover-heading {
+  position: absolute;
+  bottom: 130px; /* Adjust as needed */
+  left: 11.5%;
+  color: azure;
+  display: block; /* Reveal the heading on hover */
+}
+
+.more-info-button:hover {
+  text-decoration: underline;
+}
+
+.video-container:hover .more-info-button {
+  opacity: 1; /* Reveal the button on hover */
+}
+
+
+/** Ai usage **/
+.container .card .card-body{
+  height: 300px;
+  color: rgb(223, 222, 227);
+}
+
+.container .card .card-body p{
+  margin-top:50% ;
+  color:#fff ;
+}
+
+.container .card .card-body h3{
+  font-size: 64px;
+  color: rgb(78,132,196);
+}
+
+/** ai approach **/
+
+.ai-approach{
+  position:relative;
+}
+
+.ai-approach img{
+  height: 950px;
+  width: 100%;
+  opacity: 0.4;
+  
+}
+
+.ai-approach .ai-cap{
+  position: absolute;
+  top: 150px;
+  left: 61px;
+  font-size: 28px;
+  color: #fff;
+  font-family:Impact;
+  letter-spacing: 2px;
+  opacity: 0.7;
+}
+
+.ai-approach .ai-cap-sub{
+  position: absolute;
+  top:200px;
+  left:150px;
+  margin-right: 10%;
+  color: #fff;
+  font-family: monospace;
+  letter-spacing: 1px;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+/* lets connect*/
+
+.lets-connect a:hover{
+ text-decoration: underline;
+}

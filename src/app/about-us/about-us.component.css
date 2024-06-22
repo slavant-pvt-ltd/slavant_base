@@ -1,0 +1,36 @@
+/* Basic reset for better cross-browser consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Image styling */
+.sec-img img {
+    height: 640px;
+    width: 100%;
+    opacity: 0.7;
+    transition: transform 0.4s ease;
+}
+
+/* Zoom-out effect on hover */
+
+
+/* Additional styling for section and header */
+.sec-img {
+    position: relative;
+    padding-top: 50px;
+}
+
+.sec-img .header {
+    position: absolute;
+    color: azure;
+    top: 25%;
+    left: 15%;
+}
+
+/* More info button hover effect */
+.more-info-button:hover {
+    text-decoration: underline !important;
+}
+

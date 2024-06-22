@@ -1,0 +1,55 @@
+.brand {
+    color: #fff; /* Adjust the color code as needed */
+    font-family: "Gill Sans";
+  }
+
+
+/* styles.css */
+/* styles.css */
+.carousel-item img {
+  background-color: black;
+  height: 500px; /* Set the desired height for all images */
+  width: 120%;
+  object-fit:inherit;
+}
+
+.custom-bg-color {
+  background-color: #d5d5e2; /* Set the background color */
+}
+
+/* styles.css */
+.navbar .navbar-nav .nav-link {
+  color: white; /* Set the color of the list items to white */
+}
+
+/* styles.css */
+.carousel-caption {
+  text-size-adjust: 40;
+  color: #fff;
+  bottom: auto; /* Remove bottom positioning */
+  top: 0; /* Position captions at the top */
+  transform: translateY(0); /* Reset any vertical translation */
+}
+
+/* styles.css */
+.carousel-caption h2 {
+  position: absolute; /* Position the caption absolutely */
+  bottom: 100; /* Position the caption at the bottom */
+  left: 50%; /* Align the caption horizontally */
+  transform: translateX(50%); /* Center the caption horizontally */
+}
+
+.container img{
+ height: 350px;
+}
+
+
+.container .card-img-overlay{
+  color: #fff;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+}

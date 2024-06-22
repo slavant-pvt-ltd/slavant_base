@@ -1,0 +1,14 @@
+.container .card:hover {
+ background-color: rgb(177, 177, 177);
+}
+
+
+
+.container .card{
+    height: 200px;
+}
+
+.container .card .card-body{
+    height: 200px;
+}
+

@@ -1,0 +1,32 @@
+.brand {
+    color: #fff; /* Adjust the color code as needed */
+    font-family: "Gill Sans";
+    
+  }
+
+  /* styles.css */
+.navbar .navbar-nav .nav-link {
+    color: white; /* Set the color of the list items to white */
+  }
+  
+  .nav-item .nav-link.active {
+    color: rgb(103, 110, 240) !important;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: (0, 0, 0, 0.5);
+    /* Add other styles as needed */
+    z-index: 1000; /* Ensures the navbar is above other content */
+}
+
+  
+  
+  .navbar-nav .nav-link:hover {
+    color: rgb(103, 110, 240); /* Change color on hover */
+  }
+  
+
+
+ 
